@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
   background-color: #fff;
   color: #555;
   font-family: "Open Sans", sans-serif;
@@ -12,6 +13,7 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .row {
@@ -137,7 +139,7 @@ input[type="submit"]:active {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/DENN6513.jpg");
+    url("../images/Optimized-DENN6513.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -145,11 +147,13 @@ header {
 }
 
 .logo {
-  height: 80px;
+  height: 70px;
   width: auto;
   float: left;
   margin-top: 30px;
 }
+
+/* ---- Main nav ---- */
 
 .main-nav {
   float: right;
@@ -187,6 +191,52 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
+}
+
+/* ---- Sticky nav ---- */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.7);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  color: #fff;
+  border: none;
+  padding: 14px 0px;
+  font-size: 90%;
+}
+
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+  color: #9c7b0a;
+}
+
+.sticky .logo {
+  height: 50px;
+  margin-top: 2px;
+}
+
+.sticky .main-nav {
+  margin-top: 15px;
+}
+
 /*-------------------------------*/
 /* SECTION ABOUT */
 /*--------------------------------*/
@@ -196,7 +246,7 @@ header {
 }
 
 /*-------------------------------*/
-/* SECTION ABOUT */
+/* SECTION BEERS */
 /*--------------------------------*/
 
 .section-beers {
