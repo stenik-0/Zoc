@@ -147,10 +147,10 @@ header {
 }
 
 .logo {
-  height: 70px;
-  width: auto;
+  height: 100px;
+  width: 170px;
   float: left;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* ---- Main nav ---- */
@@ -220,7 +220,7 @@ header {
   color: #fff;
   border: none;
   padding: 14px 0px;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 .sticky .main-nav li a:hover,
@@ -230,7 +230,8 @@ header {
 
 .sticky .logo {
   height: 50px;
-  margin-top: 2px;
+  width: auto;
+  margin-top: 4px;
 }
 
 .sticky .main-nav {
