@@ -8,6 +8,10 @@
   .row {
     padding: 0 2%;
   }
+
+  .sticky .mobile-nav-icon {
+    margin-left: 90px;
+  }
 }
 
 /* Small tablet to big tablet: from 768px to 1023px */
@@ -97,7 +101,12 @@
   }
 
   .sticky .logo {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .sticky .mobile-nav-icon {
+    margin-top: 15px;
   }
 
   h1 {
@@ -122,7 +131,7 @@
   }
 
   .product img {
-    width: 140px;
+    width: 120px;
     height: auto;
   }
 
@@ -139,7 +148,7 @@
   }
 
   .footer-nav {
-    margin-left: 20%;
+    margin-left: 32%;
   }
 }
 
@@ -153,16 +162,28 @@
     width: 100%;
   }
 
+  .logo {
+    margin-left: 15px;
+  }
+
   .sticky .logo {
-    margin-top: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .mobile-nav-icon {
+    padding-top: 30px;
+    padding-right: 20px;
   }
 
   .sticky .mobile-nav-icon {
-    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
   }
 
   .mobile-nav-icon {
     margin-top: 10px;
+    margin-right: 15px;
   }
 
   .main {
@@ -170,31 +191,34 @@
   }
 
   .main-nav {
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 5px;
   }
 
   .products {
-    margin: 0 13%;
+    margin: 0 14%;
     width: 70%;
   }
 
   .product {
-    width: 35%;
+    width: 30%;
     margin: 20px;
   }
 
   .product img {
-    width: 140px;
+    width: 120px;
     height: auto;
   }
 
   .quantity {
     padding: 3px 10px;
+    width: 40%;
   }
 
   .btn-add:link,
   .btn-add:visited {
     font-size: 80%;
+    width: auto;
     text-align: center;
   }
 

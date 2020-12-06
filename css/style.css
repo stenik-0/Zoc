@@ -150,7 +150,8 @@ header {
   height: 100px;
   width: 170px;
   float: left;
-  margin-top: 20px;
+  margin-top: 25px;
+  margin-left: -40px;
 }
 
 /* ---- Main nav ---- */
@@ -179,7 +180,7 @@ header {
 }
 
 .main-nav ul li a:hover,
-.main-nav li a:active {
+.main-nav ul li a:active {
   border-bottom: 1px solid #9c7b0a;
 }
 
@@ -453,7 +454,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-  font-size: 160%;
+  font-size: 180%;
 }
 
 .ion-social-facebook,
@@ -478,5 +479,6 @@ footer {
 footer p {
   color: #888;
   text-align: center;
+  font-size: 100%;
   margin-top: 20px;
 }
