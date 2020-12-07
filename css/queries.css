@@ -37,13 +37,13 @@
     margin-left: 10%;
   }
 
-  .products {
-    width: 100%;
-    margin: 0 20%;
-  }
-
   .section-form {
     width: 100%;
+  }
+
+  .quantity {
+    margin-left: 10px;
+    padding: 5px 5px;
   }
 
   .contact-form {
@@ -148,23 +148,9 @@
     width: 80%;
   }
 
-  .products {
-    margin: 0 15%;
-    width: 70%;
-  }
-
-  .product {
-    width: 30%;
-    margin: 30px;
-  }
-
-  .product img {
-    width: 120px;
-    height: auto;
-  }
-
   .quantity {
-    padding: 5px 10px;
+    padding: 5px 5px;
+    margin-left: 10px;
   }
 
   .section-form input[type="submit"] {
@@ -184,14 +170,6 @@
 @media only screen and (max-width: 480px) {
   section {
     padding: 25px 0;
-  }
-
-  .section-form {
-    width: 100%;
-  }
-
-  .contact-form {
-    width: 80%;
   }
 
   .logo {
@@ -232,28 +210,16 @@
     margin: 0;
   }
 
-  .beer-showcase li {
-    width: 50%;
-  }
-
-  .products {
+  .section-form {
     width: 100%;
-    margin: 10px 45px;
   }
 
-  .product {
-    width: 30%;
-    margin: 10px 20px;
-  }
-
-  .product img {
-    width: 120px;
-    height: auto;
+  .contact-form {
+    width: 80%;
   }
 
   .quantity {
-    padding: 3px 10px;
-    width: 40%;
+    margin-left: 15px;
   }
 
   .btn-add:link,
@@ -265,6 +231,10 @@
 
   .section-form input[type="submit"] {
     margin-left: 25%;
+  }
+
+  .beer-showcase li {
+    width: 50%;
   }
 
   .social-links {

@@ -295,13 +295,11 @@ header {
 }
 
 .products {
-  margin: 0 32%;
-  width: 60%;
+  display: flex;
+  justify-content: center;
 }
 
 .product {
-  display: inline-block;
-  width: 20%;
   margin: 30px;
 }
 
@@ -329,7 +327,6 @@ header {
 }
 
 .quantity {
-  /* display: inline-block; */
   margin-top: 5px;
   border: 1px solid gray;
   border-radius: 6px;
@@ -338,7 +335,6 @@ header {
   margin-right: 0.1em;
   color: #505050;
   box-sizing: border-box;
-  height: 100%;
   font-size: 110%;
 }
 
