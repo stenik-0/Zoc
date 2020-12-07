@@ -191,8 +191,13 @@
 
       <form method="post" action="mailer.php" class="contact-form">
         <div class="row">
-          <div class="form-messages success">Uspešna porudžbina!</div>
-          <div class="form-messages error">Greška, pokušajte ponovo!</div>
+          <?php
+          if($_GET["success"] == 1) {
+             echo "<div class=\"form-messages success\">Uspešna porudžbina!</div>"
+          } if($_GET["success"] == -1) {
+            echo "<div class=\"form-messages error\">Greška, pokušajte ponovo!</div>"
+          }
+          ?>
         </div>
 
         <div class="row">
