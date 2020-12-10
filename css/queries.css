@@ -233,8 +233,8 @@
     margin-left: 25%;
   }
 
-  .beer-showcase li {
-    width: 50%;
+  .beer-showcase {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
   }
 
   .social-links {
