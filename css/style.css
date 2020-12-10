@@ -258,12 +258,8 @@ header {
 .beer-showcase {
   list-style: none;
   width: 100%;
-}
-
-.beer-showcase li {
-  display: block;
-  float: left;
-  width: 25%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
 }
 
 .beer-photo {
@@ -274,7 +270,7 @@ header {
 }
 
 .beer-photo img {
-  opacity: 0.7;
+  opacity: 0.6;
   width: 100%;
   height: 100%;
   transform: scale(1.15);
@@ -385,6 +381,11 @@ textarea {
 
 input[type="checkbox"] {
   margin: 10px 5px 10px 0;
+}
+
+.order-button {
+  display: flex;
+  justify-content: center;
 }
 
 *:focus {
